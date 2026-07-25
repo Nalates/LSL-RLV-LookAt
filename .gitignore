@@ -1,0 +1,33 @@
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.vs/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Blender backups & cache
+*.blend1
+*.blend2
+*.blend~
+*.blend@
+blendcache_*/
+
+# Python (if you use scripts/tools alongside the LSL code)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Logs / temp files
+*.log
+*.tmp
+*.bak
+
+# Local secrets / config you don't want committed
+*.env
+secrets.*
